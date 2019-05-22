@@ -7,6 +7,17 @@ public class Student
    private int ID;
    private String firstName;
    private int MaxCourse;
+   private boolean PartTime;
+
+   public boolean isPartTime ()
+   {
+      return PartTime;
+   }
+
+   public void setPartTime (boolean PartTime)
+   {
+      this.PartTime = PartTime;
+   }
 
    public int getID ()
    {
