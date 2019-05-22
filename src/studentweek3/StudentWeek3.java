@@ -14,5 +14,7 @@ public class StudentWeek3
       Student s1 = new Student();
       s1.setFirstName("John Smith");
       s1.setID(4);
+      
+      System.out.println("see u again");
    }
 }
